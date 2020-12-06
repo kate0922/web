@@ -1,0 +1,403 @@
+
+
+
+
+
+<style media="screen">
+body{ background-color:floralwhite;}
+
+div.sticky
+{position: -webkit-sticky;
+position: sticky;
+display: grid;
+top: 0;
+grid-template-columns: auto auto auto auto auto;
+padding: 10px;}
+.grid-item {
+background-color:#BC8F8F;
+border: 1px solid #BC8F8F;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+text-decoration:none;}
+a {text-decoration:none; color:white;}
+
+.footer{width:100%; height:10%;
+      background :LightSalmon;}
+
+.grid-container1 {
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+padding: 10px;
+}
+.grid-item {
+background-color:LightSalmon;
+border: 2px solid white;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+text-decoration:none;}
+a {text-decoration:none; color:#330000;;}
+
+@media (max-width: 600px) {
+.grid-container  {
+  grid-template-areas:
+    'left left left left left left'
+    'middle middle middle middle middle middle'
+    'right right right right right right';
+}
+}
+.grid-container2 {
+display: grid;
+grid-template-columns: auto auto;
+padding:0;
+}
+
+.item{border: 4px solid peachpuff;
+}
+
+
+@media (max-width: 600px) {
+.grid-container2  {
+grid-template-areas:
+  'left left'
+  'right right';
+</style>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel= "stylesheet" type="text/css" href="스크래치&엔트리.css">
+  <title>Font Awesome Icons</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+
+  <body>
+
+  <div class="sticky">
+  <div class="grid-item"><a href="#"> <i class="fas fa-home"></i> </a></div>
+  <div class="grid-item"> <a href="#">유아관</a></div>
+  <div class="grid-item"><a href=".\..\조별과제\청소년관시도.html">청소년관</a></div>
+  <div class="grid-item"><a href=".\..\조별과제\성인관시도.html">성인관</a></div>
+  <div class="grid-item"><a href="">노인관</a></div>
+ </div>
+
+      <div class="grid-container2">
+         <div class="item">
+           <hr>
+             <p>
+              <h3>스크래치란?</h3>
+              <hr>
+              <p><a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted">
+                <img src="스크래치 실행화면.png" hspace="5" vspace="5" width="95%">
+              </a>
+              <p style="color:brown"><a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted">
+              [사진을 클릭해서 스크래치 바로가기]</a></p>
+               스크래치는 어린 나이에도 재미있게 프로그래밍을 배울 수 있도록 만들어진
+               프로그래밍 언어랍니다. 일반적인 프로그래밍 언어와는 달리 <strong>명령이 블럭</strong>으로 만들어져 있어서
+               마우스를 이용해서 프로그램을 만들 수 있어요. 특히 게임이나 애니메이션 같은 것을 쉽게 만들 수 있어요. <br>
+
+             <p>
+               <h3>스크레치로 만든 게임</h3>
+               <hr>
+               사진을 클릭하면 해당 페이지로 이동합니다💨
+               <div>
+               <a href="https://scratch.mit.edu/projects/2792282/">
+                 <img src="스크래치 게임1.png" width="48%" height="40%">
+               </a>
+               <a href="https://scratch.mit.edu/projects/21105296/">
+                 <img src="스크래치 게임2.png" width="48%" height="40%">
+               </a> <br>
+                     <a href="https://scratch.mit.edu/projects/21554369/">
+                 <img src="스크래치 게임3.png" width="48%" >
+               </a>
+               <a href="https://scratch.mit.edu/projects/22314097/">
+                <img src="스크래치 게임4.png" width="48%" height="40%">
+               </a> <br>
+               </div>
+             </p>
+         </div>
+
+         <div class="item">
+         <hr>
+          <p>
+           <h3>엔트리란?</h3>
+           <hr>
+            <p><a href="https://playentry.org/#!/">
+                <img src="엔트리 실행화면.png" hspace="5" vspace="5" width="95%">
+              </a>
+            <p style="color:brown"><a href="https://playentry.org/#!/">[사진을 클릭해서 엔트리 바로가기]</a></p>
+            텍스트 코딩이 아닌 <strong>블록형 언어</strong>를 바탕으로 제작된 프로그래밍 프로그램이에요.
+            플래시 기반인 스크래치와 달리 HTML와 자바스크립트, <strong>파이썬 기반으로 웹에서 사용</strong>할 수도 있고,
+            다양한 디바이스에서 사용할 수 있다는 점이 장점이에요.
+            또한 엔트리는 엔트리 파이썬이라는 모드를 지원해주기 때문에<strong>텍스트코딩</strong>도 쉽게 할 수 있어요. <br>
+            </p>
+          <h3>엔트리 바로보기</h3>
+          <hr>
+          <p>
+           <iframe src="https://playentry.org/#!/" align="left" style="width:99%; height:500px; border:none;"></iframe>
+          <p>
+         </div>
+      </div>
+
+      <footer class="footer">
+        <strong><p>모두를 위한 정보통신</p>
+        사이트 제작자 : 성동현 김규리 문서영</strong>
+      </footer>
+
+  </body>
+</html>
+
+
+
+<style media="screen">
+ body{ background-color:floralwhite;}
+
+ div.sticky
+{position: -webkit-sticky;
+position: sticky;
+ display: grid;
+ top: 0;
+ grid-template-columns: auto auto auto auto auto;
+ padding: 10px;}
+ .grid-item {
+ background-color:#BC8F8F;
+ border: 1px solid #BC8F8F;
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+ text-decoration:none;}
+ a {text-decoration:none; color:floralwhite;}
+
+ .footer{width:100%; height:10%;
+       background :LightSalmon;}
+
+ .grid-container1 {
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+ padding: 10px;
+ }
+ .grid-item {
+ background-color:LightSalmon;
+ border: 2px solid white;
+ padding: 20px;
+ font-size: 30px;
+ text-align: center;
+ text-decoration:none;}
+ a{text-decoration:none; color:#330000;;}
+
+ #title{ width:700px; height:70px;  display:block; }
+ h1{text-align: center; color:#330000; }
+ h2{text-align: center; color:#330000; }
+
+ #sub_menu
+ .hnb h3 {text-align: center; text-color:#330000;}
+ .gnb li a { color:#330000;}
+
+ * {
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .grid-container2 {
+ display: grid;
+ grid-template-areas:
+  'left middle midle right right';
+
+grid-column-gap: 20px;
+}
+
+.left,
+.middle,
+.right {
+padding: 10px;
+height: 400px;
+}
+
+.left {
+grid-area: left;
+}
+
+.middle {
+grid-area: middle;
+}
+
+.right {
+grid-area: right;
+}
+
+@media (max-width: 600px) {
+.grid-container  {
+  grid-template-areas:
+    'left left left left left left'
+    'middle middle middle middle middle middle'
+    'right right right right right right';
+ }
+ }
+
+.grid-container3 {
+ display: grid;
+ grid-template-areas:
+  'left middle middle right right';
+ grid-column-gap: 20px;
+ }
+
+.left,
+.middle,
+.right {
+padding: 10px;
+height: 300px;
+}
+
+.left {
+grid-area: left;
+}
+
+.middle {
+grid-area: middle;
+}
+
+.right {
+grid-area: right;
+}
+
+@media (max-width: 600px) {
+.grid-container  {
+  grid-template-areas:
+    'left left left left left left'
+    'middle middle middle middle middle middle'
+    'right right right right right right';
+  }
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" type="text/css" href="유아관.css">
+  <title>Font Awesome Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <h1>모두를 위한 정보통신</h1>
+    <div class="sticky">
+      <div class="grid-item"><a href=".\..\index.html"> <i class="fas fa-home"></i> </a></div>
+      <div class="grid-item"> <a href=".\..\1.유아관(20210김규리)\유아관.html">유아관</a></div>
+      <div class="grid-item"><a href=".\..\2.청소년관(20213문서영)\청소년관.html">청소년관</a></div>
+      <div class="grid-item"><a href=".\..\3.성인관(20213문서영)\성인관.html">성인관</a></div>
+      <div class="grid-item"><a href=".\..\4.노인관(20202성동현)\노인관.html">노인관</a></div>
+     </div>
+
+    <div class="title">
+    <hr>
+      <h2>유아관</h2>
+    </div>
+
+  <h3>어린이 친구들 안녕하세요 💕</h3>
+  <p><strong>유아관</strong>에 온 것을 환영합니다!</p>
+  <p><strong>컴퓨터</strong>와 친해지는 시간을 가져보아요 (✿◠‿◠)</p>
+  궁금한 컴퓨터 용어는 클릭해서 알아볼 수 있어요!
+  <hr>
+ <p>
+  <div class="grid-container2">
+   <div class="left" style="background-color:Bisque;">
+     <div class>
+         <h3>컴퓨터</h3>
+          <img src="컴퓨터.png" width="40%" height="30%" align="left" hspace="5" vspace="5"  >
+            <div class="right"  style="">
+              컴퓨터는 <span style="background-color:floralwhite;">복잡한 계산을 수행하는 기계</span>예요.<br>
+              대형 컴퓨터(슈퍼컴퓨터, 메인프레임 등)와 개인용 컴퓨터(데스크톱 컴퓨터, 노트북 컴퓨터, 태블릿 컴퓨터)가
+              대표적인 컴퓨터이고, 스마트폰, 스마트 워치, 웨어러블 디바이스, 게임기, 일부 가전제품 등도 컴퓨터로 볼 수 있어요.
+            </div>
+      </div>
+    </div>
+   <div class="middle" style="background-color:Peachpuff;">
+     <div class="sub_menu">
+       <h3>개인정보</h3><br>
+       <details>
+         <summary>클릭</summary>
+        나를 <span style="background-color:floralwhite;">다른사람과 구별</span>해주는 정보를 말해요.<br>
+        이름, 주민등록번호, 주소 등과 같이 특정 개인을 알아볼 수 있게 해줘요.
+        다른 사람이 나쁜 짓을 할수도 있기 때문에 내가아닌 다른 사람에게
+        <span style="background-color:floralwhite;">나의 개인정보를 알려주어서는 안돼요.</span>
+        나뿐만 아니라 우리 가족, 그리고 타인의 개인정보도 함께 보호하려고 노력해야해요.
+       </details>
+   </div>
+ </div>
+   <div class="right" style="background-color:Bisque;">
+     <div class="sub_menu">
+      <h3>코딩</h3>
+      <img src="코드.jpg" width="45%" height="30%" align="left" hspace="5" vspace="5" >
+      <details>
+        <summary>클릭</summary>
+      프로그램이란 <span style="background-color:floralwhite;">컴퓨터가 해야 할 일을 알려 주는 명령</span>들을 모아 놓은 것이에요.
+      코드가 바로 그 <span style="background-color:floralwhite;">컴퓨터용 언어</span>예요.
+      C 언어, JAVA(자바), Python(파이썬) 처럼 여러 가지 문자와 기호를 사용하는 언어도 있고,
+      <span style="background-color:floralwhite;">스크래치</span>나
+      <span style="background-color:floralwhite;">엔트리</span>처럼
+      사용하기 쉬운 블록 모양의 언어도 있어요.
+      <span style="background-color:floralwhite;">컴퓨터가 알아들을 수 있는 코드를 작성</span>
+      하는 것을 코딩(coding)이라고 해요.
+      컴퓨터, 로봇청소기, 화재경보기는 모두 코딩을 통한 명령대로 행동해요.
+      <p style="color:brown"><a href="스크래치&엔트리.html">[클릭]스크래치/엔트리가 궁금해요!![클릭]</a></p>
+     </details>
+     </div>
+   </div>
+ </div>
+ </p>
+ <hr>
+ <p>
+ <div class="grid-container3">
+  <div class="left" style="background-color:Peachpuff;">
+    <div class>
+        <h3>💻타자연습💻</h3>
+         <a href="https://typing.malangmalang.com/">
+          <img src="한컴타자연습.png" width="100%" height="70%" >
+         </a>
+     </div>
+   </div>
+  <div class="middle" style="background-color:Bisque;">
+    <div class="sub_menu">
+      <h3>아두이노</h3><br>
+      <img src="아두이노.jpg" align="left" hspace="5" vspace="5" width="40%" height="30%" >
+      <details>
+        <summary>클릭</summary>
+      컴퓨터의 수준은 아니지만, <span style="background-color:floralwhite;">명령을 수행하고 처리할 수 있는 매우 기본적인 장치</span>
+      를 가진 것을 말해요. 센서나 부품을 자유롭게 연결할 수 있고 컴퓨터를 통해 만든 프로그램의 설정들을 적용시킬 수 있어요.
+      어떻게 하면 조립하고 사용할 수 있는지 그 사용법이 완전히 공개되어있기 때문에(오픈소스) 누구든지 쉽게 이용할 수 있어요.
+      </details>
+   </div>
+ </div>
+
+  <div class="right" style="background-color:Peachpuff;">
+    <div class="sub_menu">
+      <h3>게임중독</h3><br>
+      <img src="게임중독.jpg" align="left" hspace="5" vspace="5" width="40%" height="30%">
+      <details>
+        <summary>클릭</summary>
+        게임 중독은 <span style="background-color:floralwhite;">정상적인 생활에 피해</span>를 입을 정도로 게임에 빠져든 상태를 말해요.
+        일상 생활, 건강, 사람들과의 관계에 있어서도 <span style="background-color:floralwhite;">안 좋은 영향</span>을 많이 끼칠 수도 있어요.
+        게임은 우리를 즐겁게 해주지만, 우리가 올바르게 사용하지 않는다면 우리에게 나쁜 영향을 끼칠 수도 있다는 것을 잊으면 안돼요!
+      </details>
+    </div>
+  </div>
+ </div>
+ </p>
+ <footer class="footer">
+   <strong><p>모두를 위한 정보통신</p>
+   사이트 제작자 : 성동현 김규리 문서영</strong>
+ </footer>
+    </body>
+  </html>
+
+
+
+
